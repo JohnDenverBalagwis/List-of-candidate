@@ -64,7 +64,8 @@ body {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
   /* border: 1px solid var(--White); */
 }
 .candidate {
@@ -76,23 +77,29 @@ body {
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
   background-color: #2d5c92;
   border-radius: 10px;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  width: 10rem;
+  height: 13rem;
 }
 .candidate-image {
   width: 150px;
   height: 150px;
   overflow: hidden;
-  margin: 1rem;
 }
 .candidate-image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  display: block;
 }
 .candidate-details {
+  margin-top: 0.5rem;
   font-size: 0.7rem;
   text-align: center;
 }
 .candidate-name,
 .candidate-position {
   color: var(--White);
+}
+.female-candidate {
+  background-color: #a55e7c;
 }
